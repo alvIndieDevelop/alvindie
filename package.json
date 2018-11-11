@@ -2,7 +2,7 @@
   "name": "alvindie",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alvindiedevelop.github.io/alvindie/",
+  "homepage": "https://alvindiedevelop.github.io/alvindie",
   "dependencies": {
     "@material-ui/core": "^3.3.2",
     "@material-ui/icons": "^3.0.1",
