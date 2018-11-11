@@ -1,14 +1,13 @@
 {
-  "main.css": "/alvindie/static/css/main.c7d5e1ae.chunk.css",
-  "main.js": "/alvindie/static/js/main.7d76ad0b.chunk.js",
-  "main.js.map": "/alvindie/static/js/main.7d76ad0b.chunk.js.map",
-  "static/js/1.a700ff87.chunk.js": "/alvindie/static/js/1.a700ff87.chunk.js",
-  "static/js/1.a700ff87.chunk.js.map": "/alvindie/static/js/1.a700ff87.chunk.js.map",
+  "main.css": "/alvindie/static/css/main.2b31d944.chunk.css",
+  "main.js": "/alvindie/static/js/main.ea0e7180.chunk.js",
+  "main.js.map": "/alvindie/static/js/main.ea0e7180.chunk.js.map",
+  "static/js/1.65ce4348.chunk.js": "/alvindie/static/js/1.65ce4348.chunk.js",
+  "static/js/1.65ce4348.chunk.js.map": "/alvindie/static/js/1.65ce4348.chunk.js.map",
   "runtime~main.js": "/alvindie/static/js/runtime~main.0109e056.js",
   "runtime~main.js.map": "/alvindie/static/js/runtime~main.0109e056.js.map",
-  "static/media/logo.svg": "/alvindie/static/media/logo.5d5d9eef.svg",
-  "static/css/main.c7d5e1ae.chunk.css.map": "/alvindie/static/css/main.c7d5e1ae.chunk.css.map",
+  "static/css/main.2b31d944.chunk.css.map": "/alvindie/static/css/main.2b31d944.chunk.css.map",
   "index.html": "/alvindie/index.html",
-  "precache-manifest.5a711bae7968e14d09cb4fe9de3cb9f6.js": "/alvindie/precache-manifest.5a711bae7968e14d09cb4fe9de3cb9f6.js",
+  "precache-manifest.76feb3486e9fc434d35bec8cbe4b6147.js": "/alvindie/precache-manifest.76feb3486e9fc434d35bec8cbe4b6147.js",
   "service-worker.js": "/alvindie/service-worker.js"
 }
