@@ -9,7 +9,7 @@ import myTheme from "./utils/customTheme";
 
 ReactDOM.render(
   <MuiThemeProvider theme={myTheme}>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <App />
     </BrowserRouter>
   </MuiThemeProvider>,
