@@ -181,23 +181,23 @@ class LandingPage extends Component {
                   </Typography>
                 </div>
                 <div className={classes.aboutMe}>
-                  <Typography>
+                  <Typography align="center">
                     Mi nombre es Alvaro Martin Caballero me dedico con pasión
                     <br />
                     al desarrollo de videojuegos y al desarrollo web,
                     <br />
                     aprendiendo nuevas tecnologías en el transcurso.
-                    <br /> soy un joven
                     <br />
-                    emprendedor que me gusta aportar ideas para resolver
+                    soy un joven emprendedor que me gusta aportar ideas para
                     <br />
-                    problemas.
+                    resolver problemas.
+                    <br />
                     <br />
                     <br />
                     Mis pasatiempo vez en cuando entrar algún GameJam o<br />
                     Hackaton.
                   </Typography>
-                  <Button>mi CV</Button>
+                  <Button variant="contained">mi CV</Button>
                 </div>
               </Paper>
             </Grid>
