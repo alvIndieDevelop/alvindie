@@ -9,12 +9,12 @@ import {
   Toolbar,
   Drawer,
   Hidden,
-  Grid,
-  Paper,
-  Button,
   Divider
 } from "@material-ui/core";
 import { Menu as MenuIcon } from "@material-ui/icons";
+
+// components
+import Content from "./components/LandingPage_Content";
 
 const drawerWidth = 260;
 const styles = theme => ({
@@ -45,19 +45,6 @@ const styles = theme => ({
     borderRadius: "50%",
     boxShadow: theme.shadows[5]
   },
-  logo: {
-    margin: theme.spacing.unit
-  },
-  logo2: {
-    margin: "auto",
-    background: `rgba(0,0,0,0) url("images/LogoAlvaro2.png") no-repeat center center`,
-    backgroundSize: "250px 150px",
-    backgroundColor: theme.palette.common.white,
-    height: 200,
-    width: 200,
-    borderRadius: "50%",
-    boxShadow: theme.shadows[5]
-  },
   drawer: {
     [theme.breakpoints.up("sm")]: {
       width: drawerWidth,
@@ -79,13 +66,6 @@ const styles = theme => ({
   toolbar: theme.mixins.toolbar,
   drawerPaper: {
     width: drawerWidth
-  },
-  content: {
-    flexGrow: 1,
-    padding: theme.spacing.unit * 3
-  },
-  paper: {
-    padding: theme.spacing.unit * 3
   }
 });
 
@@ -168,40 +148,7 @@ class LandingPage extends Component {
               </Drawer>
             </Hidden>
           </nav>
-          <main className={classes.content}>
-            <div className={classes.toolbar} />
-            <Grid container justify="center">
-              <Paper className={classes.paper}>
-                <div className={classes.logo}>
-                  <div className={classes.logo2} />
-                </div>
-                <div className={classes.title}>
-                  <Typography variant="h6" align="center">
-                    Acerca de mi
-                  </Typography>
-                </div>
-                <div className={classes.aboutMe}>
-                  <Typography align="center">
-                    Mi nombre es Alvaro Martin Caballero me dedico con pasión
-                    <br />
-                    al desarrollo de videojuegos y al desarrollo web,
-                    <br />
-                    aprendiendo nuevas tecnologías en el transcurso.
-                    <br />
-                    soy un joven emprendedor que me gusta aportar ideas para
-                    <br />
-                    resolver problemas.
-                    <br />
-                    <br />
-                    <br />
-                    Mis pasatiempo vez en cuando entrar algún GameJam o<br />
-                    Hackaton.
-                  </Typography>
-                  <Button variant="contained">mi CV</Button>
-                </div>
-              </Paper>
-            </Grid>
-          </main>
+          <Content />
         </div>
       </Fragment>
     );
